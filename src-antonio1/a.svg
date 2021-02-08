@@ -1,0 +1,21 @@
+<?xml version="1.0" standalone="no"?>
+<svg
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  version="1.1"
+  style="background-color: rgba(255,255,255,1);"
+  preserveAspectRatio="none"
+  width="400" height="478"
+  viewBox="0 0 400 478">
+  <defs>
+  </defs>
+  <g> <!-- invert y -->
+    <g transform="scale(0.444939,0.444238)"> <!-- content transformation-->
+      <path id="shape0" fill-rule="nonzero" fill="rgb(180,117,63)" d="M 255 1078 A 15 15 54.4623 0 1 242.01 1055.5 15 15 -180 0 1 267.99 1055.5 15 15 -178.091 0 1 255 1078 Z "/>
+    </g>
+  </g>
+</svg>

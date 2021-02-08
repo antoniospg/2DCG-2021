@@ -1,0 +1,12 @@
+local rvg = {}
+
+rvg.scene = scene{
+  fill(polygon{0,0,200,0,200,200,0,200},
+      linear_gradient(color_ramp(spread.clamp, {{0,rgb8(255,0,0)},{1,rgba8(0,255,0)}}),371.736,720.527,410.278,771.54):scaled(0.71244, -0.736421):translated(0, 648.633)),
+}
+
+rvg.window = window(0,0,200,200)
+
+rvg.viewport = viewport(0,0,200,200)
+
+return rvg

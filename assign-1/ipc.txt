@@ -1,0 +1,34 @@
+#Criar transformacoes
+
+local flip = _M.identity()
+flip = flip:translated(0.,-wxl):scaled(-1,1):translated(0,wxr)
+
+#Compor xf
+
+ xf = scene:get_xf()
+ a, b, c = xf:apply(1,2)
+    
+ xf_inde = xf:transformed(xf:inverse())
+
+a, b, c = xf_inde:apply(1,2)
+
+
+#Unpack cores
+
+
+local function unpack8_helper(rgba, i)
+    local v = rgba[i]
+    if v then
+        return math.floor(v*255. + .5), unpack8_helper(rgba, i+1)
+    end
+end
+
+local function unpack8(rgba)
+    return unpack8_helper(rgba, 1)
+end
+
+
+usar r, g, b = unpack(cor)
+
+
+#

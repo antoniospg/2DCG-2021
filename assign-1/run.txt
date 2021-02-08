@@ -1,0 +1,1 @@
+luapp process.lua png1 ../rvgs-1.0.0/triangle1.rvg triangle1.png

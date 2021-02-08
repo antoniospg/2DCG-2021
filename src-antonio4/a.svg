@@ -1,0 +1,27 @@
+<?xml version="1.0" standalone="no"?>
+<svg
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  version="1.1"
+  style="background-color: rgba(255,255,255,1);"
+  preserveAspectRatio="none"
+  width="320" height="202"
+  viewBox="0 0 320 202">
+  <defs>
+    <radialGradient id="gradient0" gradientUnits="userSpaceOnUse" cx="79.815101623535" cy="245.75500488281" fx="80.642402648926" fy="224.81500244141" r="27.742399215698" spreadMethod="pad" gradientTransform="matrix(0.897376,0,0,-0.185714,29.2246,135.636)">
+      <stop offset="0" stop-color="rgb(0,0,0)" stop-opacity="0.7843137254902"/>
+      <stop offset="0.36599999666214" stop-color="rgb(0,0,0)" stop-opacity="0.35686274509804"/>
+      <stop offset="0.4709999859333" stop-color="rgb(0,0,0)" stop-opacity="0.24705882352941"/>
+      <stop offset="1" stop-color="rgb(255,255,255)" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g transform="matrix(1,0,0,-1,0,202)"> <!-- invert y -->
+    <g transform="scale(1.79819,1.79532)"> <!-- content transformation-->
+      <path id="shape0" fill-rule="evenodd" fill="url(#gradient0)" fill-opacity="0.74509803921569" d="M 131.286 89.6073 C 131.286 93.042 117.817 95.8296 101.22 95.8296 84.6233 95.8296 71.1535 93.042 71.1535 89.6073 71.1535 86.1726 84.6233 83.385 101.22 83.385 117.817 83.385 131.286 86.1726 131.286 89.6073 "/>
+    </g>
+  </g>
+</svg>
